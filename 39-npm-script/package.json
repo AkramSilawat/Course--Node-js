@@ -1,0 +1,16 @@
+{
+    "name": "greet-codevolution",
+    "version": "1.0.0",
+    "description": "codevolution greeting package",
+    "main": "index.js",
+
+    "script": {
+        "start": "node index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "upper-case": "^2.0.2"
+    }
+}
