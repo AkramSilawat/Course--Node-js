@@ -6,18 +6,18 @@
 // obj2.name = "Clark Kent";
 
 // console.log(obj1);
-
-
+// console.log(obj2);
 
 
 
 const obj1 = {
-    name: "Bruce Wayne",
+    name: "Akram",
 }
 
 let obj2 = obj1;
 obj2 = {
-    name : "Clark Kent",
-
+    name : "Owesh",
 }
+obj2 = 10;
 console.log(obj1);
+console.log(obj2);
