@@ -1,9 +1,9 @@
-const addFn = require("./add.js")
+const {add, subtract } = require("./add.js")
 
 console.log("Hello from index.js");
 
-const sum = addFn(1,2);
-const sum2 = addFn(2,3);
+const sum = add(1,2);
+const sum2 = subtract(2,3);
 console.log(sum);
 console.log(sum2);
 
