@@ -7,7 +7,7 @@ const drinkMachine = new DrinkMachine
 pizzaShop.on("order",(size, topping) => {
     console.log(`Order recived! Baking a ${size} pizza with ${topping}`);
     drinkMachine.serveDrink(size);
-});   // Not result
+});   
 
 pizzaShop.order("large", "mashrooms");;
 pizzaShop.diplayOrderNumber();
